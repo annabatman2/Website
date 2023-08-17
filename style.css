@@ -9,8 +9,8 @@ body{
     background-attachment: fixed
 }
 .picture{
-    max-width: 150px;
-    max-height: 150px;
+    width: 20vh;
+    height: 20vh;
     padding: auto;
     display: block;
 }
@@ -151,6 +151,7 @@ nav .fa{
     }
     .picture{
         width: 20%;
+        height: 20%;
         padding: auto;
         display: block;
     }
