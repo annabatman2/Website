@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content ="with=device-width, initial-scale=1.0">
+     <title>Anna Batman</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ysabeau+SC:wght@300&display=swap"
+ rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+<section class="header">
+    <nav>
+        <a class="nav-name" href="index.html" style="text-decoration:none">
+           anna batman
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class= "fa fa-times" onclick="hideMenu()"></i>                
+            <ul>
+                 <li><a href="">home</a></li>
+                 <li><a href="#Contact">contact</a><br /></li>
+            </ul>
+        </div>
+        <i class= "fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+        <!---<a href=""class="hero-btn">let's connect</a>!--->
+        <div>
+            <img src="Images/anna_senior_2021-22.jpg" class="portrait"/>
+          </div>
+          <div class="text">
+    <p>Student at the university of virginia pursuing a degree in computer science with a minor in data science. 
+        Experience in software development including proficiency in java and python.</p>
+    <p>Currently interning at the boyd caton group as a data analyst and contributing to the public transit sector by creating high 
+        quality data products for the federal transit administration and transit safety institute.</p>
+        <p>experienced in professional portrait photography and proficient in adobe creative cloud.</p>
+          </div>
+          
+    </section>
+    <img src="Images/uva emblem.png" class="picture" />
+        </div>
+
+    <!----contact--->
+    <section class="contact" id="Contact">
+        <div class = "row">
+            <div class = "contact-col">
+                <h2>contact me</h2>
+                <p>by email: <a href="mailto:annadbatman@gmail.com" style="text-decoration: underline; color:black">annadbatman@gmail.com</a></p>
+                <p>by phone: 434-907-9901</p>
+                <p>online:<a class = "contact" href="index.html" style="text-decoration: underline; color:black">annadbatman.com</a></p>
+        </div>
+    </section>
+    <!----JS for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
