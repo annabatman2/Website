@@ -12,6 +12,7 @@ body{
     max-width: 150px;
     max-height: 150px;
     padding: auto;
+    display: block;
 }
 .text{
     position: relative;
@@ -35,7 +36,8 @@ body{
     margin-left: auto;
     float: left;
     margin-right: auto;
-    height: 50vh;
+    height: 45vh;
+    width: 30vh;
     padding-right:20px
 }
 .wrapper {
@@ -43,21 +45,22 @@ body{
     padding-top: 10px;
     padding-right: 20px;
     padding-left: 20px; 
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     width: 45%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    max-width:1160px; 
+    padding-top: 10px;
+    background-size: cover;
+    position: relative;
 }
 .header{
     min-height: 100vh;
     width: 100%;
     background-color: white;
-    /*linear-gradient(rgba(4,9,30,0.7),
-    rgba(4,9,30,0.7)),url(Images/anna_senior_2021-22.jpg);*/
     background-position: center;
     background-size: cover;
     position: relative;
-    
 }
 nav{
     display: flex;
@@ -76,6 +79,7 @@ nav img{
     list-style:none;
     display: inline-block;
     padding: 8px 12px;
+    position: relative;
 }
 .nav-links ul li a{
     color: #111;
@@ -111,7 +115,7 @@ nav img{
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 1vw;
     color: #111;
 }
 .hero-btn{
@@ -143,7 +147,12 @@ nav .fa{
         width: 20%;
         height: auto;
         margin: auto;
-        padding: 10px;
+        justify-content: center;
+    }
+    .picture{
+        width: 20%;
+        padding: auto;
+        display: block;
     }
     .nav-links ul li{
         display: block;
