@@ -95,7 +95,7 @@ nav a {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     .info {
         flex-direction: column;
         padding-left: 0;
